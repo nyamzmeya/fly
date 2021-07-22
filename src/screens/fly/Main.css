@@ -1,0 +1,193 @@
+.app-wrapper {
+  background: #e7e7e7;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.card {
+  width: 680px;
+  height: 895px;
+  background: #ffffff;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 65px 40px;
+  margin: 0 auto;
+}
+
+.record {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.record img {
+}
+
+.info_1 {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  color: #424242;
+}
+
+.info_1 span {
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.items {
+  overflow-y: scroll;
+  height: 580px;
+  margin-top: 23px;
+}
+
+.info {
+  margin-left: -114px;
+}
+
+.info_2 {
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  color: #878787;
+}
+
+.info_2 span {
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.info_3 {
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  color: #878787;
+}
+
+.price {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  color: #424242;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-right: 11px;
+}
+
+.line {
+  height: 1px;
+  background: rgba(135, 135, 135, 0.2);
+  border-radius: 8px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  margin: 22px auto 20px auto;
+}
+
+.price span {
+  font-size: 11px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  color: #878787;
+  margin-right: 8px;
+}
+
+.card_text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_text_1 {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 32px;
+  color: #424242;
+}
+
+.card_text_1 span {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.react-date-picker__clear-button,
+.react-date-picker__inputGroup__divider {
+  display: none;
+}
+
+.react-date-picker__wrapper {
+  border: none !important;
+}
+
+.react-date-picker__inputGroup__month {
+  border: none !important;
+}
+
+.react-date-picker input,
+.react-date-picker select {
+  color: #1157a7;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 22px;
+}
+
+.react-date-picker__button svg {
+  display: none !important;
+}
+
+.react-date-picker__button {
+  background: url("../../img/Group 9.png") !important;
+  width: 22px;
+  height: 24px;
+  background-size: cover;
+  margin-top: 6px;
+}
+
+.slider {
+  display: flex;
+  margin-top: 24px;
+}
+
+.slider div {
+  margin-right: 16px;
+  overflow: hidden;
+}
+
+.fav {
+  margin-top: 31px;
+  font-weight: 300;
+  font-size: 17px;
+  color: #424242;
+}
+
+.fav span {
+  color: #1157a7;
+}
+
+.add_f {
+  margin-bottom: 22px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  display: block;
+  cursor: pointer;
+}
+
+.log {
+  position: absolute;
+  top: 26px;
+  right: 31px;
+  font-weight: 400;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.408px;
+  color: #1157a7;
+}
+
+.log button {
+  border-color: #e7e7e7;
+  margin-left: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

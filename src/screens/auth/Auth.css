@@ -1,0 +1,92 @@
+.auth {
+  background-image: url("../../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.form {
+  width: 410px;
+  height: auto;
+  padding-bottom: 37px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form_text {
+  margin: 53px auto 16px auto;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #424242;
+}
+
+label {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #424242;
+  display: block;
+  margin-bottom: 7px;
+}
+
+.form-group {
+  margin: 0 auto;
+  width: 345px;
+  margin-bottom: 25px;
+}
+
+input {
+  width: 345px;
+  height: 34px;
+  border: 1px solid #c9cacc;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.btn {
+  width: 116px;
+  background: linear-gradient(104.34deg, #3c4cad -15.34%, #00c3ff 145.95%);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-left: 262px;
+  font-size: 16px;
+  color: #ffffff;
+  display: block;
+  cursor: pointer;
+  height: 34px;
+}
+
+.btn:active {
+  background: linear-gradient(104.34deg, #5362be -15.34%, #4ad5ff 145.95%);
+  border: 1.5px solid rgba(29, 138, 216, 0.3);
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 4px #99a0a3;
+}
+
+.danger {
+  color: #eb1717;
+}
+
+.danger_in {
+  border: 1px solid #eb1717;
+  box-shadow: 0px 0px 4px rgba(235, 23, 23, 0.2);
+}
+
+.text-danger {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  color: #eb1717;
+}

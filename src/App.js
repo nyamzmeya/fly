@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { connect } from "react-redux";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { AuthComponent } from "./screens/auth/AuthPage";
+import MainComponent from "./screens/fly/MainCard";
 
-function App() {
+let mapStateToProps = (state) => {
+  return {
+    isAuth: state.authPage.isAuth,
+  };
+};
+
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Route
+        render={() =>
+          props.isAuth ? (
+            <Route component={MainComponent} />
+          ) : (
+            <Route component={AuthComponent} />
+          )
+        }
+      />
+    </BrowserRouter>
   );
 }
 
-export default App;
+let AppComponent = connect(mapStateToProps, {})(App);
+
+export default AppComponent;
