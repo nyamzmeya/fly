@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/fly/static/css/main.1ed8f06e.chunk.css",
+    "main.js": "/fly/static/js/main.30bd8e62.chunk.js",
+    "main.js.map": "/fly/static/js/main.30bd8e62.chunk.js.map",
+    "runtime-main.js": "/fly/static/js/runtime-main.10995e91.js",
+    "runtime-main.js.map": "/fly/static/js/runtime-main.10995e91.js.map",
+    "static/css/2.11c732af.chunk.css": "/fly/static/css/2.11c732af.chunk.css",
+    "static/js/2.d3f1810e.chunk.js": "/fly/static/js/2.d3f1810e.chunk.js",
+    "static/js/2.d3f1810e.chunk.js.map": "/fly/static/js/2.d3f1810e.chunk.js.map",
+    "index.html": "/fly/index.html",
+    "static/css/2.11c732af.chunk.css.map": "/fly/static/css/2.11c732af.chunk.css.map",
+    "static/css/main.1ed8f06e.chunk.css.map": "/fly/static/css/main.1ed8f06e.chunk.css.map",
+    "static/js/2.d3f1810e.chunk.js.LICENSE.txt": "/fly/static/js/2.d3f1810e.chunk.js.LICENSE.txt",
+    "static/media/1488.372b42cf.gif": "/fly/static/media/1488.372b42cf.gif",
+    "static/media/Intersect.8c061ca4.png": "/fly/static/media/Intersect.8c061ca4.png",
+    "static/media/Rectangle 23.fd4dc267.png": "/fly/static/media/Rectangle 23.fd4dc267.png",
+    "static/media/Rectangle 24.1bf6a81c.png": "/fly/static/media/Rectangle 24.1bf6a81c.png",
+    "static/media/Rectangle 28.8121288e.png": "/fly/static/media/Rectangle 28.8121288e.png",
+    "static/media/Auth.css": "/fly/static/media/bg.28923e3e.png",
+    "static/media/index.css": "/fly/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10995e91.js",
+    "static/css/2.11c732af.chunk.css",
+    "static/js/2.d3f1810e.chunk.js",
+    "static/css/main.1ed8f06e.chunk.css",
+    "static/js/main.30bd8e62.chunk.js"
+  ]
+}
